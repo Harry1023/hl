@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <head>
 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="title" content="Harris - UX/UI Designer, Mentor & Entrepreneur">
     <meta name="description" content="Harris is a UX/UI Designer dedicated to end problems as Norman's Door. Explore my journey of 10+ Years worked with top notch brands.">
     <meta name="keywords" content="harris, ux ui, designer, harris larry">
@@ -13,7 +14,7 @@
 
     <link rel="stylesheet" type="text/css" href="config.css"/>
     <link rel="stylesheet" type="text/css" href="assets/index.css"/>
-    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
 
 
     <!------->
@@ -85,8 +86,15 @@
 
 <div id="badge-container">
 
-    <div class="badge-single"></div>
-    
+    <div class="badge-hold">
+        <div class="badge-single"><img src="raw/Mask Group 14.png" width="200px" alt=""></div>
+        <div class="badge-single"></div>
+        <div class="badge-single"></div>
+        <div class="badge-single"></div>
+    </div>
+
+
+
     </div>
 
 </header>
@@ -158,7 +166,16 @@
 
     <div class="sub-container-white-sd">
 
-        <div class="scw-portfolio-item"></div>
+        
+        
+        
+        <div><div class="scw-portfolio-item"></div><span class="scw-pitem-text">Airlift</span></div>
+
+        <div><div class="scw-portfolio-item"></div><span class="scw-pitem-text">Airlift</span></div>
+
+        <div><div class="scw-portfolio-item"></div><span class="scw-pitem-text">Airlift</span></div>
+
+        <div><div class="scw-portfolio-item"></div><span class="scw-pitem-text">Airlift</span></div>
 
 
     </div>
@@ -169,6 +186,100 @@
 
 
 </div>
+
+
+<script>
+
+$(document).ready(function(){
+
+
+
+    $('.badge-hold').slick({
+  infinite: true,
+  autoplay: true,
+  accessibility: false,
+  arrows: false,
+  speed: 300,
+  slidesToShow: 3,
+  slidesToScroll: 1,
+  responsive: [
+    {
+      breakpoint: 1024,
+      settings: {
+        slidesToShow: 3,
+        slidesToScroll: 1,
+      }
+    },
+    {
+      breakpoint: 600,
+      settings: {
+        slidesToShow: 2,
+        slidesToScroll: 1
+      }
+    },
+    {
+      breakpoint: 480,
+      settings: {
+        slidesToShow: 1,
+        slidesToScroll: 1,
+      }
+    }
+    //
+
+    //
+
+
+    //
+
+    //
+  ]
+});
+
+
+
+
+
+
+$('.sub-container-white-sd').slick({
+  infinite: true,
+  autoplay: true,
+  accessibility: false,
+  arrows: false,
+  speed: 300,
+  slidesToShow: 2,
+  slidesToScroll: 1,
+  responsive: [
+    {
+      breakpoint: 1024,
+      settings: {
+        slidesToShow: 2,
+        slidesToScroll: 1,
+      }
+    },
+    {
+      breakpoint: 701,
+      settings: {
+        slidesToShow: 2,
+        slidesToScroll: 1,
+      }
+    },
+    {
+      breakpoint: 700,
+      settings: {
+        slidesToShow: 1,
+        slidesToScroll: 1,
+      }
+    }
+    // You can unslick at a given breakpoint now by adding:
+    // settings: "unslick"
+    // instead of a settings object
+  ]
+});
+
+});
+
+</script>
+
 
 
 <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
