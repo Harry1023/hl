@@ -1,4 +1,67 @@
-body {
+html, body {
+    margin: 0px;
+    padding: 0px;
+    height: 100%;
+}
+
+
+:root {
+    --defaultDF: 'avantgarde_bk_btdemi';
+    --headingHF: 'Bodoni Moda', serif;
+}
+
+
+
+a {
+    text-decoration: none !important;
+    cursor: pointer !important;
+}
+
+
+button {
+    border: none;
+    outline: none !important;
+    font-family: var(--defaultDF);
+}
+
+h1  {
     margin: 0px;
     padding: 0px;
 }
+
+.centVH {position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%);}
+.centH {position: absolute; left: 50%; transform: translateX(-50%);}
+.centV {position: absolute; top: 50%; transform: translateY(-50%);}
+
+
+
+
+
+/* FONT ATTACHMENTS ONLY-- */
+
+@font-face {
+    font-family: 'avantgarde_bk_btdemi';
+    src: url('avgardd_2-webfont.woff2') format('woff2'),
+         url('avgardd_2-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'avantgarde_bk_btbook';
+    src: url('avgardn_2-webfont.woff2') format('woff2'),
+         url('avgardn_2-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+/* --FONT ATTACHMENTS ONLY */
+

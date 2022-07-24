@@ -1,0 +1,387 @@
+#gold-div {
+    width: 100%;
+    height: auto;
+    background: #C0B283;
+}
+
+#gold-div > span {
+    width: 100%;
+    color: #000000;
+    font-family: 'avantgarde_bk_btdemi';
+    font-size: 17px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 7px;
+    margin-bottom: 7px;
+    display: inline-block;
+    text-align: center;
+}
+
+
+#main-nav {
+    width: 100%;
+    height: 65px;
+    background: #192231;
+}
+
+
+#nav-hold {
+    height: 50px;
+    width: 90%;
+    max-width: 1200px;
+    padding-top: 7px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+
+#nav-lft {
+    width: 30%;
+    height: 100%;
+    float: left;
+    background: #000;
+}
+
+#nav-rgt {
+    width: 60%;
+    height: 100%;
+    float: right;
+}
+
+
+#nav-border-box {
+    height: 100%;
+    width: 65%;
+    max-width: 351px;
+    border: 1px solid #C8C8C8;
+    float: left;
+}
+
+
+#nav-border-box > button {
+    width: 120px;
+    height: 100%;
+    font-size: 17px;
+    background: transparent;
+    color: #C8C8C8;
+}
+
+
+#nav-border-box > span {
+    width: 30px;
+    height: 30px;
+    background: blue;
+    margin-top: 10px;
+}
+
+#nav-cta {
+    height: 100%;
+    width: 30%;
+    float: right;
+    font-family: var(--defaultDF);
+    font-size: 18px;
+    background: transparent;
+    border: 1px solid #C0B283;
+    color: #C0B283;
+
+}
+
+
+
+
+
+
+header {
+    width: 100%;
+    min-height: 700px;
+    height: 100vh;
+    max-height: 1000px;
+    background: #192231;
+    position: relative;
+}
+
+
+header > div {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+    height: 600px;
+    position: relative;
+}
+
+
+#en-first-heading {
+    font-family: 'Bodoni Moda', serif;
+    font-size: 65px;
+    font-weight: 800;
+    color: #FFFFFF;
+    width: 800px;
+}
+
+
+
+#en-first-text {
+    font-family: 'avantgarde_bk_btbook';
+    font-size: 25px;
+    color: #FFFFFF;
+    width: 700px;
+}
+
+#badge-container {
+    width: 100%;
+    height: 150px;
+    background-color: red;
+    position: absolute;
+    bottom: 0px;
+}
+
+
+
+
+
+
+
+
+
+#gold-container {
+    width: 100%;
+    height: 1000px;
+    background: #C0B283;
+    position: relative;
+}
+
+
+#gold-container > div {
+    width: 95%;
+    max-width: 700px;
+    height: auto;
+    bottom: 0px;
+}
+
+.sub-container-gold {
+    width: 100%;
+    height: auto;
+    margin-top: 20px;
+}
+
+
+.sub-container-gold > span {
+    font-family: 'avantgarde_bk_btbook';
+    font-size: 20px;
+    display: inline-block;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.scg-border-box {
+    width: 100%;
+    height: 100%;
+    border: 1px solid #000000;
+}
+
+.sub-container-gold > h2 {
+    font-family:'Bodoni Moda', serif;
+    font-size: 50px;
+    margin: 0px;
+}
+
+
+.scg-border-box > p {
+    width: 90%;
+    padding: 10px;
+    height: auto;
+    font-family: 'avantgarde_bk_btbook';
+    font-size: 24px;
+}
+
+
+.scg-border-box > button {
+    width: 220px;
+    height: 50px;
+    font-size: 17px;
+    border-radius: 50px;
+    background: #EBEFF2;
+    color: #000000;
+    margin-bottom: 25px;
+    margin-left: 10px;
+}
+
+
+.scg-border-box > button::after {
+    content: '';
+    background-image: url(platform/next.png);
+    background-size: cover;
+    width: 12px;
+    height: 12px;
+    display: inline-block;
+    margin-left: 12px;
+}
+
+
+.sub-container-gold > img {
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+    width: 100%;
+    max-width: 484px;
+}
+
+
+
+
+
+#white-container {
+    width: 100%;
+    height: 600px;
+    position: relative;
+}
+
+
+#white-container > div {
+    width: 95%;
+    max-width: 700px;
+    height: auto;
+}
+
+
+.sub-container-white-ft {
+    width: 100%;
+    height: 140px;
+    margin-top: 90px;
+}
+
+
+.scw-fhlg {
+    width: 30%;
+    height: 120px;
+    background-color: royalblue;
+    float: left;
+}
+
+.scw-fhdt {
+    width: 68%;
+    height: 120px;
+    float: right;
+    position: relative;
+    border-left: 2px solid #192231;
+}
+
+
+.scw-fhdt > span {
+    width: 95%;
+    font-family: var(--headingHF);
+    font-size: 30px;
+    text-align: center;
+}
+
+
+.scw-portfolio-item {
+    width: 40%;
+    height: 400px;
+    margin-right: 25px;
+    background: red;
+}
+
+
+@media screen and (max-width: 500px) {
+
+
+    #nav-rgt {
+        display: none;
+    }
+
+
+
+
+
+    #en-first-heading {
+        font-family: 'Bodoni Moda', serif;
+        font-size: 48px;
+        font-weight: 800;
+        color: #FFFFFF;
+        width: 90%;
+    }
+
+
+
+    #en-first-text {
+        font-family: 'avantgarde_bk_btbook';
+        font-size: 24px;
+        color: #FFFFFF;
+        width: 90%;
+    }
+
+
+    .scw-fhlg {display: none;}
+    .scw-fhdt {width: 100% !important; border: none !important; font-size: 25px !important;}
+    
+
+
+    .sub-container-gold > h2 {
+        font-family:'Bodoni Moda', serif;
+        font-size: 45px;
+        margin: 0px;
+    }
+    
+    
+    .scg-border-box > p {
+        width: 90%;
+        padding: 10px;
+        height: auto;
+        font-family: 'avantgarde_bk_btbook';
+        font-size: 20px;
+    }
+    
+}
+
+
+
+@media screen and (min-width: 501px) and (max-width: 900px) {
+
+
+    #en-first-heading {
+        font-family: 'Bodoni Moda', serif;
+        font-size: 48px;
+        font-weight: 800;
+        color: #FFFFFF;
+        width: 90%;
+    }
+
+
+
+    #en-first-text {
+        font-family: 'avantgarde_bk_btbook';
+        font-size: 24px;
+        color: #FFFFFF;
+        width: 90%;
+    }
+
+
+
+    #nav-rgt {
+        display: none;
+    }
+
+
+        .scw-fhlg {display: none;}
+    .scw-fhdt {width: 100% !important; border: none !important; font-size: 25px !important;}
+
+
+    .sub-container-gold > h2 {
+        font-family:'Bodoni Moda', serif;
+        font-size: 45px;
+        margin: 0px;
+    }
+    
+    
+    .scg-border-box > p {
+        width: 70%;
+        padding: 10px;
+        height: auto;
+        font-family: 'avantgarde_bk_btbook';
+        font-size: 20px;
+    }
+
+}
