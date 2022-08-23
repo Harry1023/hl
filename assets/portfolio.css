@@ -1,0 +1,25 @@
+header {
+    width: 100%;
+    min-height: 700px;
+    height: 100vh;
+    max-height: 1000px;
+    background: #F6F6F6;
+    position: relative;
+}
+
+
+
+.singlebackabsolutebtn {
+    background: #010101;
+    width: 60px;
+    height: 60px;
+    border-radius: 50px;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+
+header > div {
+    width: 90%;
+    height: auto;
+}
