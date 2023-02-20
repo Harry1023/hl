@@ -23,3 +23,84 @@ header > div {
     width: 90%;
     height: auto;
 }
+
+
+.et0 > img {}
+
+.et0 > span {display:inline-block;width:60%;font-family: 'avantgarde_bk_btbook';font-size: 21px;text-align: center;color: #010101;}
+
+.et0 > h1 {font-family: var(--headingHF);font-size: 60px;text-align:center;
+    color: #010101;}
+
+
+.et0 > button {background: #C0B283; height: 60px; width: 200px;text-transform: uppercase;}
+.et0 > button::after {display: inline-block;content: '';width: 20px;height: 20px;background-image: url(platform/playet0.png);background-size: cover;}
+
+#single-page-holder {
+    min-width: 400px;
+    width: 90%;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+#menu-breakable {
+    width: 100%;
+    height: 160px;
+}
+
+#menu-breakable > h2 {
+    font-family: var(--defaultDF);
+    font-size: 25px;
+}
+
+
+#menu-breakable > button {
+    font-family: 'avantgarde_bk_btbook';
+    font-size: 18px;
+    background: #FFFFFF;
+    width: 180px;
+    height: 50px;
+    border: 1px solid #C0B283;
+    border-radius: 50px;
+    margin-right: 22px;
+}
+
+
+
+#content {
+    width: 100%;
+}
+
+#content>h2 {
+    font-family: var(--defaultDF);
+    font-size: 25px;
+}
+
+#content>p {
+    font-family: 'avantgarde_bk_btbook';
+    font-size: 18px;
+}
+
+
+@media screen and (max-width: 500px) {
+
+    .et0 > h1 {font-family: var(--headingHF);font-size: 30px;text-align:center;
+        color: #010101;}
+
+
+        #menu-breakable {display: none;}
+        .et0 > span {font-size: 16px !important;}
+        .et0 > h1 {font-size: 50px !important;}
+
+}
+
+@media screen and (min-width: 501px) and (max-width: 900px) {
+
+    #menu-breakable {display: none;}
+    .et0 > span {font-size: 16px !important;}
+    .et0 > h1 {font-size: 50px !important;}
+
+
+}
