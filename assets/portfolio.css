@@ -1,6 +1,6 @@
 header {
     width: 100%;
-    min-height: 700px;
+    min-height: 800px;
     height: 100vh;
     max-height: 1000px;
     background: #F6F6F6;
@@ -19,22 +19,27 @@ header {
     left: 10px;
 }
 
-header > div {
+.et0 {
     width: 90%;
-    height: auto;
+    height: 700px;
 }
 
 
-.et0 > img {}
+.et0 > img {    width: 500px;
+    height: 356px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;}
 
 .et0 > span {display:inline-block;width:60%;font-family: 'avantgarde_bk_btbook';font-size: 21px;text-align: center;color: #010101;}
 
 .et0 > h1 {font-family: var(--headingHF);font-size: 60px;text-align:center;
-    color: #010101;}
+    color: #010101;margin-top: 20px;
+    margin-bottom: 20px;}
 
 
-.et0 > button {background: #C0B283; height: 60px; width: 200px;text-transform: uppercase;}
-.et0 > button::after {display: inline-block;content: '';width: 20px;height: 20px;background-image: url(platform/playet0.png);background-size: cover;}
+.et0 > button {background: #C0B283; height: 60px; width: 200px;text-transform: uppercase; font-size: 17px;}
+.et0 > button::after {display: inline-block;content: '';width: 20px;height: 20px;background-image: url(platform/playet0.png);background-size: cover;margin-left: 10px;}
 
 #single-page-holder {
     min-width: 400px;
@@ -86,6 +91,7 @@ header > div {
 
 @media screen and (max-width: 500px) {
 
+    .et0 > img {width: 300px !important; height: 156px !important;}
     .et0 > h1 {font-family: var(--headingHF);font-size: 30px;text-align:center;
         color: #010101;}
 
