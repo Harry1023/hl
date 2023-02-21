@@ -69,7 +69,7 @@
 }
 
 
-#nav-border-box > span {
+#nav-border-box > a > span {
     width: 30px;
     height: 30px;
     background: blue;
