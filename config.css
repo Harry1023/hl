@@ -65,3 +65,86 @@ h1  {
 
 /* --FONT ATTACHMENTS ONLY */
 
+
+
+#main-nav {
+    width: 100%;
+    height: 75px;
+}
+
+
+#nav-hold {
+    height: 50px;
+    width: 90%;
+    max-width: 1200px;
+    padding-top: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+
+
+
+#nav-lft {
+    width: 30%;
+    height: 100%;
+    float: left;
+}
+
+#nav-rgt {
+    width: 60%;
+    max-width: 542px;
+    height: 100%;
+    float: right;
+}
+
+
+#nav-border-box {
+    height: 100%;
+    width: 65%;
+    max-width: 351px;
+    border: 1px solid #C8C8C8;
+    float: left;
+}
+
+
+#nav-border-box > a > button {
+    width: 120px;
+    height: 100%;
+    font-size: 17px;
+    background: transparent;
+    color: #C8C8C8;
+}
+
+
+#nav-border-box > a > span {
+    width: 15px;
+    height: 15px;
+    margin-left: 20px;
+    background-size: 15px 15px;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: inline-block;
+}
+
+#nav-cta {
+    height: 54px;
+    width: 30%;
+    float: right;
+    font-family: var(--defaultDF);
+    font-size: 18px;
+    background: transparent;
+    border: 1px solid #C0B283;
+    color: #C0B283;
+
+}
+
+header {
+    width: 100%;
+    min-height: 700px;
+    height: 100vh;
+    max-height: 1000px;
+    position: relative;
+}
+
