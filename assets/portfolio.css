@@ -48,7 +48,7 @@ header {
 
 #single-page-holder {
     min-width: 400px;
-    width: 90%;
+    width: 70%;
     max-width: 1200px;
     margin-left: auto;
     margin-right: auto;
@@ -70,9 +70,10 @@ header {
     font-family: 'avantgarde_bk_btbook';
     font-size: 18px;
     background: #FFFFFF;
-    width: 180px;
+    width: 140px;
     height: 50px;
     border: 1px solid #C0B283;
+    color: #C0B283;
     border-radius: 50px;
     margin-right: 22px;
 }
@@ -91,6 +92,7 @@ header {
 #content>p {
     font-family: 'avantgarde_bk_btbook';
     font-size: 18px;
+    line-height: 1.4;
 }
 
 
