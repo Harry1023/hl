@@ -136,7 +136,7 @@ header > div {
 }
 
 
-.scg-border-box > button {
+.scg-border-box button {
     width: 220px;
     height: 50px;
     font-size: 17px;
@@ -148,7 +148,7 @@ header > div {
 }
 
 
-.scg-border-box > button::after {
+.scg-border-box button::after {
     content: '';
     background-image: url(platform/next.png);
     background-size: cover;
@@ -231,7 +231,10 @@ header > div {
     width: 330px;
     height: 400px;
     background: red;
+    position: relative;
 }
+
+.scw-portfolio-item > img {position: absolute; bottom: 0px;}
 
 
 

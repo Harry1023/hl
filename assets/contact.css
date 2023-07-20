@@ -1,0 +1,82 @@
+
+
+/* Let's start the new Contact Page */
+
+.field {
+    outline: none !important;
+    width: 100%;
+    margin-bottom: max(35px, 4vh);
+    padding-top: 1vw; padding-bottom: 1vw;
+    border-width: 0px 0px 2px 0px;
+    border-color: #6e6b6b;
+}
+
+
+
+
+#main-contact-flex {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+
+#address-container {
+    width: 100%;
+}
+
+
+.single-address {
+    margin-left: 2vw;
+    
+        backdrop-filter: blur(16px) saturate(180%);
+    -webkit-backdrop-filter: blur(16px) saturate(180%);
+    background-color: rgba(255, 255, 255, 0.75);
+    border-radius: 12px;
+    border: 1px solid rgba(209, 213, 219, 0.3);
+}
+
+
+.single-address > div {width: 90%; display: block; margin: 0 auto;}
+
+
+
+
+
+
+
+#testimonial-container {
+    width: 95%;
+    display: block; margin: 0 auto;
+    color: #FFFFFF;
+}
+
+
+@media screen and (min-width: 801px) {
+    
+#s-lft-container {width: 50%;}
+#s-rgt-container {width: 50%;}
+
+
+.single-address {
+    width: 30vw;
+}
+
+}
+
+
+@media screen and (max-width: 800px) {
+    
+    
+#s-lft-container {width: 100%; max-width: 800px;}
+#s-rgt-container {width: 100%;}  
+
+
+
+.single-address {
+    width: 90vw;
+    max-width: 600px;
+}    
+}

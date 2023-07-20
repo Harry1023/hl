@@ -72,7 +72,7 @@ header {
     background: #FFFFFF;
     width: 140px;
     height: 50px;
-    border: 1px solid #C0B283;
+    border: 1px solid #645e4a;
     color: #C0B283;
     border-radius: 50px;
     margin-right: 22px;
@@ -90,10 +90,28 @@ header {
 }
 
 #content>p {
-    font-family: 'avantgarde_bk_btbook';
+    /* font-family: 'avantgarde_bk_btbook'; */
+    font-family: "Inter", sans-serif;
     font-size: 18px;
     line-height: 1.4;
 }
+
+
+
+#createFlex-e4872 {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+
+.e4872 {
+    width: 100%;
+    height: 300px;
+    background: hotpink;
+}
+
 
 
 @media screen and (max-width: 500px) {
