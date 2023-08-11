@@ -1,3 +1,60 @@
+<!-- This Script automattically checks if a Content is Served over SSL and then implements correct files path. -->
+
+<script>
+
+    
+    
+    
+    
+    
+    
+    
+    
+    function protocol(item, type, classes) {
+    if (window.location.protocol === "https:") {
+        console.log("This page is served over HTTPS.");
+        turl = "" + item;
+    
+        
+    } else {
+        console.log("This page is not served over HTTPS.");
+        turl = "file:///E:/SiteHarris/hl" + item;
+    
+        
+    }
+    
+
+
+if (type === "img") {
+document.write("<img src='" + turl + "' class='" + classes + "'/>");
+ }
+
+if (type === "script") {
+document.write("<script src='" + turl + "'/>");
+}
+
+if (type === "href") {
+document.write("<link rel='stylesheet' type='text/css' href='" + turl + "'/>");
+}
+
+
+if (type === "a") {
+document.write("<a href='" + turl + "'/>");
+}
+
+
+if (type === "bg") {
+document.write("<span style='background-image: url(" + turl + ")'></span>");
+}
+
+    }
+    
+    </script>
+
+
+
+
+
 <!DOCTYPE html>
 <head>
 
@@ -12,8 +69,8 @@
 
 
 
-    <link rel="stylesheet" type="text/css" href="file:///E:/SiteHarris/hl/config.css"/>
-    <link rel="stylesheet" type="text/css" href="file:///E:/SiteHarris/hl/assets/portfolio.css"/>
+    <script>protocol("/config.css", "href", "");</script>
+    <script>protocol("/assets/portfolio.css", "href", "");</script>
     <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
 
 
@@ -29,9 +86,6 @@
 <body>
 
     <header>
-
-
-
 
         <div id="main-nav">
 
@@ -50,8 +104,8 @@
                     <a href="#onlyportfolio"><button>PORTFOLIO</button></a>
                     <a href="/about"><button>THE STORY</button></a>
     
-                    <a href="https://www.instagram.com/harrislarry.hl"><span style="background-image: url(assets/platform/ig.png);"></span></a>
-                    <a href=""><span style="background-image: url(assets/platform/med.png);"></span></a>
+                    <a href="https://www.instagram.com/harrislarry.hl"><script>protocol("/assets/platform/ig.png", "bg", "");</script></a>
+                    <a href=""><script>protocol("/assets/platform/med.png", "bg", "");</script></a>
     
                 </div>
     
@@ -66,7 +120,7 @@
         <div class="centVH et0">
 
 
-            <img src="https://harrislarry.ga/assets/platform/4DE.png" alt="" />
+<script>protocol('/assets/platform/4DE.png', 'img', '');</script>
 
             <h1>Redefining the Airlift App</h1>
 
