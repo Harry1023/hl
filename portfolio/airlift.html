@@ -1,58 +1,5 @@
-<!-- This Script automattically checks if a Content is Served over SSL and then implements correct files path. -->
 
-<script>
-
-    
-    
-    
-    
-    
-    
-    
-    
-    function protocol(item, type, classes) {
-    if (window.location.protocol === "https:") {
-        console.log("This page is served over HTTPS.");
-        turl = "" + item;
-    
-        
-    } else {
-        console.log("This page is not served over HTTPS.");
-        turl = "file:///E:/SiteHarris/hl" + item;
-    
-        
-    }
-    
-
-
-if (type === "img") {
-document.write("<img src='" + turl + "' class='" + classes + "'/>");
- }
-
-if (type === "script") {
-document.write("<script src='" + turl + "'/>");
-}
-
-if (type === "href") {
-document.write("<link rel='stylesheet' type='text/css' href='" + turl + "'/>");
-}
-
-
-if (type === "a") {
-document.write("<a href='" + turl + "'/>");
-}
-
-
-if (type === "bg") {
-document.write("<span style='background-image: url(" + turl + ")'></span>");
-}
-
-    }
-    
-    </script>
-
-
-
+   <script type="text/javascript" src="https://harrislarry.netlify.app/protocoled.js"></script>
 
 
 <!DOCTYPE html>
@@ -68,7 +15,7 @@ document.write("<span style='background-image: url(" + turl + ")'></span>");
 
 
 
-
+ 
     <script>protocol("/config.css", "href", "");</script>
     <script>protocol("/assets/portfolio.css", "href", "");</script>
     <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
