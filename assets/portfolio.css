@@ -96,7 +96,11 @@ header {
     line-height: 1.4;
 }
 
-
+#content>ul>li {
+    font-family: "Inter", sans-serif;
+    font-size: 18px;
+    line-height: 1.4;
+}
 
 #createFlex-e4872 {
     width: 100%;
