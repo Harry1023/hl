@@ -9,6 +9,8 @@
     
     
     function protocol(item, type, classes) {
+
+        
     if (window.location.protocol === "https:") {
         console.log("This page is served over HTTPS.");
         turl = "" + item;
