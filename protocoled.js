@@ -49,4 +49,10 @@ document.write("<span style='background-image: url(" + turl + ")'></span>");
 
     }
     
+
+
+//   Example Use:  <script>protocol("/assets/portfolio.css", "href", "");</script>
+
+
+
     </script>
