@@ -70,4 +70,4 @@ if(type === "meta") {
 
 
 
-    </script>
+</script>
