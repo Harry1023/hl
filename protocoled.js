@@ -47,6 +47,21 @@ if (type === "bg") {
 document.write("<span style='background-image: url(" + turl + ")'></span>");
 }
 
+
+
+if(type === "meta") {
+    
+    document.write("<meta name='viewport' content='width=device-width, initial-scale=1.0'>
+    <meta name='title' content='Harris - UX/UI Designer, Mentor & Entrepreneur'>
+    <meta name='description' content='Harris is a UX/UI Designer dedicated to end problems as Norman's Door. Explore my journey of 10+ Years worked with top notch brands.'>
+    <meta name='keywords' content='harris, ux ui, designer, harris larry'>
+    <meta name='robots' content='index,follow'>
+    <meta http-equiv='Content-Type' content='text/html; charset=utf-8'>
+    <meta name='language' content='English'>
+");
+
+}
+
     }
     
 
