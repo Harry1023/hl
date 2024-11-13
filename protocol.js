@@ -1,4 +1,4 @@
-<script>
+
 
     
     
@@ -70,4 +70,3 @@ if(type === "meta") {
 
 
 
-</script>
