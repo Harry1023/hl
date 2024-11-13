@@ -112,6 +112,7 @@ font-display: block;
     width: 65%;
     max-width: 351px;
     border: 1px solid #C8C8C8;
+    border-radius: 50px;
     float: left;
 }
 
@@ -143,6 +144,7 @@ font-display: block;
     font-size: 18px;
     background: transparent;
     border: 1px solid #C0B283;
+    border-radius: 50px;
     color: #C0B283;
 
 }
